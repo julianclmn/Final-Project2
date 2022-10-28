@@ -1,0 +1,110 @@
+HTML{
+  BACKGROUND-IMAGE:
+}
+
+#navbarNav{
+  FLEX-DIRECTION:ROW-REVERSE;
+  JUSTIFY-CONTENT:FLEX-START;
+  PADDING-RIGHT:70PX;
+}
+
+.nav-item{
+  TEXT-INDENT:200PX;
+  FONT-FAMILY: 'Inconsolata', Times New Roman;
+}
+
+.navbar.bg-light{
+  background-color:transparent !important;
+}
+/* EMPTY DIV */
+.EMPTY{
+  BORDER-STYLE:NONE;
+  HEIGHT:100PX ;
+  WIDTH:0PX AUTO;
+}
+
+/* EMPTY DIV*/
+
+
+/* JUMBOTRON */
+.CONTAINER.mt{
+  MARGIN-TOP:200PX !important;
+}
+
+h1{
+ FONT-FAMILY: 'Playfair Display', serif !important; 
+}
+.text-start{
+  TEXT-ALIGN:START;
+  
+}
+.QUOTE{
+  FONT-FAMILY: 'Inconsolata', Times New Roman !important;
+  FONT-SIZE:23PX;
+}
+
+.QUOTE2{
+  FONT-FAMILY: 'Inconsolata', Times New Roman !important;
+  FONT-SIZE:23PX;
+}
+A{
+ COLOR:BLACK;
+ TEXT-DECORATION:NONE;
+ BORDER-BOTTOM:NONE!;
+}
+
+.QUOTE:HOVER{
+ COLOR:#5295B6;
+ 
+}
+
+.QUOTE2:HOVER{
+ COLOR:#E3CAAB;
+}
+.AUTHOR:HOVER{
+  COLOR:#8C52FF;
+}
+A:ACTIVE{
+ COLOR:BLACK;
+}
+P{
+ WHITE-SPACE:PRE-LINE;
+}
+/* JUMBOTRON */
+
+/* ACCORDIAN / CONTACT FORM */
+.accordion-item{
+  BORDER:NONE;
+}
+
+.accordion-button:not(.collapsed) {
+  FONT-FAMILY: 'Playfair Display', serif;
+  LETTER-SPACING:.4REM;
+  FONT-SIZE:35PX;
+  PADDING:1.5REM 30REM;
+  COLOR:BLACK;
+  BACKGROUND-COLOR: WHITE;
+}
+ 
+.accordion-body{
+PADDING:3REM 5REM;
+}
+
+form{
+  FONT-FAMILY:'Inconsolata', Times New Roman ;
+}
+
+.form-text{
+  MARGIN-TOP:3REM;
+}
+
+.BEGINNING:HOVER{
+  COLOR:#5295B6;
+}
+.btn-outline-dark{
+ 
+ COLOR: BLACK;
+ COLOR: #212529;
+ BORDER-COLOR: #212529;
+ 
+}

@@ -1,5 +1,16 @@
 HTML{
-  BACKGROUND-IMAGE:
+  BACKGROUND-IMAGE: none;
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 250px;
 }
 
 #navbarNav{
@@ -176,4 +187,10 @@ lI{
     background-size: 100% 40% !important;
     background-position: 0 90% !important;
 
+  }
+
+  @media screen and (max-width: 523px){
+    .card{
+      margin-top: 25px;
+    }
   }

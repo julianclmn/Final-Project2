@@ -16,6 +16,20 @@ HTML{
 .navbar.bg-light{
   background-color:transparent !important;
 }
+.INDEX:HOVER{
+  COLOR:#5295B6 !important;
+}
+
+.WEBFLOW:HOVER{
+  COLOR:#E3CAAB !important;
+}
+
+.CONTACT:HOVER{
+  COLOR:#8C52FF !important;
+}
+.WEBFLOW:ACTIVE{
+  COLOR:#E3CAAB !important;
+}
 /* EMPTY DIV */
 .EMPTY{
   BORDER-STYLE:NONE;
@@ -108,3 +122,58 @@ form{
  BORDER-COLOR: #212529;
  
 }
+
+/* WEB FLOW CONTENT*/
+
+SECTION{
+  DISPLAY:FLEX;
+  FLEX-DIRECTION:ROW-REVERSE;
+  JUSTIFY-CONTENT:CENTER;
+  WIDTH:0 AUTO ;
+  HEIGHT:0 AUTO;
+}
+
+.mt-3{
+ MARGIN-TOP:6REM !important;
+ 
+}
+.ms-5{
+ MARGIN-LEFT:7REM !important;
+}
+.me-5{
+ MARGIN-RIGHT:7REM !important;
+}
+.card-header{
+  BACKGROUND-COLOR: TRANSPARENT !important;
+  FONT-FAMILY:'Playfair Display', serif !important; 
+  LETTER-SPACING:.3REM;
+}
+
+lI{
+  FONT-FAMILY:'Inconsolata', Times New Roman !important;
+  LIST-STYLE-TYPE:NONE;
+  WHITE-SPACE:BREAK-SPACES;
+  LETTER-SPACING:.3REM;}
+
+
+   .BLUE{ 
+    background: linear-gradient(120deg, #5295B6 0%, #5295B6 100%) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 40% !important;
+    background-position: 0 90% !important;
+  }
+  .BEIGE{
+    background: linear-gradient(120deg, #E3CAAB 0%, #E3CAAB 100%) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 40% !important;
+    background-position: 0 90% !important;
+
+  }
+
+  .PURPLE{
+    background: linear-gradient(120deg, #8C52FF 0%, #8C52FF 100%) !important;
+    background-repeat: no-repeat !important;
+    background-size: 100% 40% !important;
+    background-position: 0 90% !important;
+
+  }
